@@ -23,9 +23,7 @@ else { return ELSE; }
 while { return WHILE; }
 int|char|float { return TYPE; }
 %%
-~~~
 ## Program: int.y 
-~~~
 %{
 #include <string.h>
 #include <stdio.h>
@@ -84,9 +82,7 @@ int main(int argc,char *argv[]) {
 void yyerror() {
     printf("\n Error on line no:%d",LineNo);
 }
-~~~
 ## Program: test.c
-~~~
 main() {
     int a, b, c;
     if (a < b) {
