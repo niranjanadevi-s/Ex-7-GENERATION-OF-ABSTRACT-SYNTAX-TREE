@@ -1,14 +1,17 @@
 ~~~
  Ex-7-GENERATION-OF-ABSTRACT-SYNTAX-TREE
 CONVERSION OF THE BNF RULES INTO YACC FORM AND GENERATION OF ABSTRACT SYNTAX TREE
+
 Aim: 
 To write a program to convert the BNF rules into YACC form and to generate Abstract Syntax Tree.
+
 # ALGORITHM
 1.	Start the program.
 2.	Write a program in the vi editor and save it with .l extension.
 3.	In the lex program, write the translation rules for the keywords, identifiers and relational operators.
 4.	Write a program in the vi editor and save it with .y extension.
 5.	In the YACC program, the following tasks are performed:
+
  PROGRAM
  Program:int.
 %{
@@ -92,6 +95,7 @@ main() {
         a = a + b;
 }
 ~~~
+
 # Output
 ![image](https://github.com/niranjanadevi-s/Ex-7-GENERATION-OF-ABSTRACT-SYNTAX-TREE/assets/141748873/32f807d2-6a2f-4a8f-a3c8-12827ecc2059)
 # Result
